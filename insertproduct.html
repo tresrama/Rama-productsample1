@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Insert Products</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Namebox"
+          />
+
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Email:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Emailbox"
+            />  
+
+             <div class="mb-3">
+                <label  class="form-label">Mobile No.:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="MobileNobox"
+                />
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Movie:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Moviebox"
+            />
+
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Location:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Locationbox"
+            />
+
+        </div>
+        <div class="mb-3">
+            <label  class="form-label">Date:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Datebox"
+            />
+
+        </div>
+        <div class="mb-3">
+          <label>Time</label> <select id="Timebox">
+              <option value="Time">Any Time</option>
+              <option value="Time">Day Time (Before 5PM)</option>
+              <option value="Time">Evening (After 5PM)</option>
+          </select>
+
+          </div>
+          <div class="mb-3">
+            <label>Select Cinema</label> <select id="Cinemabox">
+                <option value="Cinema">Choose Here</option>
+                <option value="Cinema">Director's Club</option>
+                <option value="Cinema">Drive-In Cinema</option>
+                <option value="Cinema">Event Cinema</option>
+                <option value="Cinema">IMAX</option>
+                <option value="Cinema">Large Screen Format</option>
+            </select>
+            
+<hr>
+
+          </div>
+          <button type="button" class="btn btn-info" id="Insbtn">INSERT</button>
+          <button type="button" class="btn btn-info" id="Delbtn">DELETE</button>
+        </div>
+        <hr>
+        <h2>NOW SHOWING</h2>
+       <!--Card-->
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://pacificsciencecenter.org/wp-content/uploads/2023/05/little-mermaid-poster.jpg" class="card-img-top" alt="Image 1" />
+            <div class="card-body">
+              <h5 class="card-title">The Little Mermaid</h5>
+              <p class="card-text">
+                A young mermaid makes a deal with a sea witch to trade her beautiful voice for human legs so she can discover the world above water and impress a prince.
+              </p>
+              <h6>Cast: Halle Bailey, Jonah Hauer-King</h6>
+              <h6>Romance | Fantasy | Musical</h6>
+              <h6>Runtime: 135 minutes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i0.wp.com/maxblizz.com/wp-content/uploads/2023/03/Guardians-of-the-Galaxy-Vol.-3-New-Family-Of-Posters3.jpg?resize=760%2C380&ssl=1" class="card-img-top" alt="Image 2" />
+            <div class="card-body">
+              <h5 class="card-title">Guardians of the Galaxy Vol. 3</h5>
+              <p class="card-text">
+                Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.
+              </p>
+              <h6>Cast: Chris Pratt, Bradley Cooper</h6>
+              <h6>Action | Adventure | Comedy</h6>
+              <h6>Runtime: 150 minutes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/a24films/beau-is-afraid/images/regions/us/share.jpg" class="card-img-top" alt="Image 3" />
+            <div class="card-body">
+              <h5 class="card-title">Beau Is Afraid</h5>
+              <p class="card-text">
+                Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic, Kafkaesque odyssey back home.
+              </p>
+              <h6>Cast: Joaquin Pheonix, Patti LuPone</h6>
+              <h6>Comedy | Drama | Horror</h6>
+              <h6>Runtime: 179 minutes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/fast-x/images/regions/us/share.jpg" class="card-img-top" alt="Image 4" />
+            <div class="card-body">
+              <h5 class="card-title">Fast X</h5>
+              <p class="card-text">
+                Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.
+              </p>
+              <h6>Cast: Vin Diesel, Jason Statham</h6>
+              <h6>Action | Adventure | Crime</h6>
+              <h6>Runtime: 141 minutes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://atom-tickets-res.cloudinary.com/image/upload/c_lfill,f_auto,g_north,q_auto,w_600/v1684965452/console_uploads/efblt8pwtxij6stgbffh.jpg" class="card-img-top" alt="Image 5" />
+            <div class="card-body">
+              <h5 class="card-title">The Boogeyman</h5>
+              <p class="card-text">
+                When a desperate patient shows up unexpectedly at their house asking for help, they bring in a terrifying entity that preys on the family and feeds on their greatest suffering.
+              </p>
+              <h6>Cast: Sophie Tatcher, Chris Messina</h6>
+              <h6>Horror | Mystery | Thriller</h6>
+              <h6>Runtime: 98 minutes</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://www.metrotheatres.com/media/4238/sv2_1600x640_er_banners_june2.jpg?preset=heropanel" class="card-img-top" alt="Image 6" />
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man: Across The Spider-Verse</h5>
+              <p class="card-text">
+                Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.
+              </p>
+              <h6>Cast: Hailee Steinfeld, Oscar Isaac</h6>
+              <h6>Animation | Adventure | Action</h6>
+              <h6>Runtime: 136 minutes</h6>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <hr>
+        <h2>COMING SOON</h2>
+       <!--Card-->
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://bloody-disgusting.com/wp-content/uploads/2023/04/mansion-44.png" class="card-img-top" alt="Image 1" />
+            <div class="card-body">
+              <h5 class="card-title">Haunted Mansion</h5>
+              <p class="card-text">
+                A single mom named Gabbie hires a tour guide, a psychic, a priest, and a historian to help exorcise her newly bought mansion after discovering it is inhabited by ghosts.
+              </p>
+              <h6>Cast: Rosario Dawson, Danny DeVito</h6>
+              <h6>Horror | Comedy | Adventure</h6>
+              <h6>Studio: Walt Disney Production</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://variety.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-11-at-4.33.33-PM.png" class="card-img-top" alt="Image 2" />
+            <div class="card-body">
+              <h5 class="card-title">Barbie</h5>
+              <p class="card-text">
+                To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you're a Ken.
+              </p>
+              <h6>Cast: Margot Robbie, Ryan Gosling</h6>
+              <h6>Adventure | Fantasy | Comedy</h6>
+              <h6>Studio: Warner Bros. Pictures</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://deadline.com/wp-content/uploads/2023/04/ELEMENTAL_ONLINE-USE-m355_208g_pub.pub16.228.jpg" class="card-img-top" alt="Image 3" />
+            <div class="card-body">
+              <h5 class="card-title">Elemental</h5>
+              <p class="card-text">
+                Follows Ember and Wade, in a city where fire-, water-, land- and air-residents live together.
+              <h6>Cast: Leah Lewis, Ronnie Del Carmen</h6>
+              <h6>Comedy | Adventure | Animation</h6>
+              <h6>Studios: Walt Disney Production, Pixar Animation Studios</h6>
+            </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBkdtHDucGXStmcdXjsYzmPjU9aFjVdhPA",
+    authDomain: "rama-crud.firebaseapp.com",
+    projectId: "rama-crud",
+    storageBucket: "rama-crud.appspot.com",
+    messagingSenderId: "233258736486",
+    appId: "1:233258736486:web:b29f12b87da3ab62a106a7",
+    measurementId: "G-P4R8JVEEDN"
+};
+
+ // Initialize Firebase
+ const app = initializeApp(firebaseConfig);
+
+        import {getDatabase, ref, set, child, update, remove, get}
+        from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js"
+
+        const db = getDatabase();
+
+        // references
+
+        var namebox = document.getElementById("Namebox");
+        var emailbox = document.getElementById("Emailbox");
+        var mobilenobox = document.getElementById("MobileNobox");
+        var moviebox = document.getElementById("Moviebox");
+        var locationbox = document.getElementById("Locationbox");
+        var datebox = document.getElementById("Datebox");
+        var timebox = document.getElementById("Timebox");
+        var cinemabox = document.getElementById("Cinemabox")
+
+        var insBtn = document.getElementById("Insbtn")
+        var delBtn = document.getElementById("Delbtn")
+
+        // add data function
+
+        function InsertData(){
+            set(ref(db, "Movie/"+ namebox.value),{
+                Name: namebox.value,
+                Email: emailbox.value,
+                MobileNo: mobilenobox.value,
+                Movie: moviebox.value,
+                Location: locationbox.value,
+                Date: datebox.value,
+                Time: timebox.value,
+                Cinema: cinemabox.value,
+            })
+            .then(()=>{
+                alert("data stored succesfully");
+            })
+            .catch((error)=>{
+                alert("unsuccesful, error" + error)
+            });
+        }
+
+        // select data function
+
+        function SelectData(){
+          const dbref = ref(db);
+      
+          get(child(dbref, "Movie/"+ namebox.value)).then((snapshot)=>{
+              if (snapshot.exists ()){
+                    namebox.value = snapshot.val().Name;
+                    emailbox.value = snapshot.val().Email;
+                    mobilenobox.value = snapshot.val().MobileNo;
+                    moviebox.value = snapshot.val().Movie;
+                    locationbox.value = snapshot.val().Location;
+                    datebox.value = snapshot.val().Date;
+                    timebox.value = snapshot.val().Time;
+                    cinemabox.value = snapshot.val().Cinema;
+      
+              }
+              else{
+                  alert("No data found")
+              }
+          })
+          .catch((error)=>{
+              alert("unseccesful, error"+ error);
+          });
+      }
+
+      // update data function
+
+      function UpdateData(){
+            update(ref(db, "Movie/"+ namebox.value),{
+                Name: namebox.value,
+                Email: emailbox.value,
+                MobileNo: mobilenobox.value,
+                Movie: moviebox.value,
+                Location: locationbox.value,
+                Date: datebox.value,
+                Time: timebox.value,
+                Cinema: cinemabox.value,
+            })
+            .then(()=>{
+                alert("data update succesfully");
+            })
+            .catch((error)=>{
+                alert("unsuccesful, error" + error)
+            });
+        }
+
+        // delete function
+
+        function DeleteData(){
+          remove(ref(db, "Movie/"+ namebox.value))
+          .then(()=>{
+              alert("data removed succesfully");
+          })
+          .catch((error)=>{
+              alert("unseccesful, error"+ error);
+          });
+      }
+
+        // Aasign event button
+        insBtn.addEventListener('click', InsertData);
+        delBtn.addEventListener('click', DeleteData);
+
+      </script>
+
+
+  </body>
+</html>
